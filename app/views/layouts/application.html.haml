@@ -8,4 +8,6 @@
   %body
     = render '/layouts/nav'
     .container
+      %span.notice= notice
+      %span.alert= alert
       = yield
